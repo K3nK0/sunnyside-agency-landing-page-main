@@ -334,7 +334,7 @@ body {
 
     // footer
     footer {
-        background: hsl(168, 60%, 75%);
+        background: hsl(167 43% 70%);
         // color: $DarkModerateCyan;
         padding: 60px 0;
         
@@ -343,12 +343,9 @@ body {
             flex-direction: column;
             align-items: center;
 
-            #logo-footer {
-                width: 180px;
-                margin-bottom: 40px;
-                img{
-                    fill: $DarkModerateCyan!important;
-                }
+            svg {
+                margin:0 auto 40px auto;
+                color: $DarkDesaturatedCyan;
             }
 
             .link-footer {
@@ -374,12 +371,13 @@ body {
                 justify-content: center;
                 gap: 1.5%;
                 width: 100%;
-                a{
+                a {
                     &:hover {
-                        fill: white;
+                        svg {
+                            fill: $White;
+                        }
                     }
                 }
-                
             }
         }
     }

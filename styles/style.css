@@ -269,7 +269,7 @@ body .section-galery .container-galery .img-galery-mobile {
   display: none;
 }
 body footer {
-  background: hsl(168, 60%, 75%);
+  background: hsl(167, 43%, 70%);
   padding: 60px 0;
 }
 body footer .container-footer {
@@ -277,12 +277,9 @@ body footer .container-footer {
   flex-direction: column;
   align-items: center;
 }
-body footer .container-footer #logo-footer {
-  width: 180px;
-  margin-bottom: 40px;
-}
-body footer .container-footer #logo-footer img {
-  fill: hsl(168, 34%, 41%) !important;
+body footer .container-footer svg {
+  margin: 0 auto 40px auto;
+  color: hsl(167, 40%, 24%);
 }
 body footer .container-footer .link-footer {
   display: flex;
@@ -306,8 +303,8 @@ body footer .container-footer .reseaux {
   gap: 1.5%;
   width: 100%;
 }
-body footer .container-footer .reseaux a:hover {
-  fill: white;
+body footer .container-footer .reseaux a:hover svg {
+  fill: hsl(0, 0%, 100%);
 }
 
 @media screen and (max-width: 630px) {
